@@ -8,7 +8,7 @@
 
 ## constructor
 
- - __QObject * object__ : the object to monitor.
+ - __QObject * object__ : the object to monitor and the parent of the SignalsSpy.
 
 ## signals
 

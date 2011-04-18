@@ -27,7 +27,7 @@
 #include <QMetaMethod>
 
 SignalsSpy::SignalsSpy(QObject * object)
-	: signalIdentifier(object)
+	: QObject(object), signalIdentifier(object)
 {
 	const QMetaObject * metaObject = object->metaObject();
 	for(int i = 0;i < metaObject->methodCount();i++)
