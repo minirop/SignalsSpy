@@ -10,7 +10,7 @@
 
  - __QObject * object__ : the object to monitor.
 
-## slots
+## signals
 
  - __emitted(QString signature)__ : send the signature of the signal that just been emitted, like `"valueChanged(int)"`
  - __emittedNameOnly(QString name)__ : send the name of the signal that just been emitted, like `"valueChanged"`
