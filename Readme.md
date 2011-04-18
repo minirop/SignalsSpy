@@ -18,7 +18,7 @@
 ## example
 
     QPushButton * button = new QPushButton("click me!");
-	SignalsSpy spy(button);
+	SignalsSpy * spy = new SignalsSpy(button);
 	connect(&spy, SIGNAL(emittedNameOnly(QString)), button, SLOT(setText(QString)));
 
  When you'll click the button, the displayed text should go through something like : pressed, released, clicked( bool ), clicked
