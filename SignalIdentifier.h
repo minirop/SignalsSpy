@@ -29,7 +29,7 @@
 #include <QList>
 #include <QByteArray>
 
-// DO NOT MODIFY THIS FILE UNLESS YOU KNOW WHAT YOUR DOING !!!!
+// DO NOT MODIFY THIS FILE UNLESS YOU KNOW WHAT YOU'RE DOING !!!!
 
 class SignalIdentifier : public QObject
 {
